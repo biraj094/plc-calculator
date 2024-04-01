@@ -11,4 +11,10 @@ Steps to run the project:
 
 
 
+The report can be found at the repository named : "Biraj Koirala PLC-1.pdf"
+
+The screenshot of the application is shown below:
+
+![Screenshot of the application](./calc.jpg)
+
 
