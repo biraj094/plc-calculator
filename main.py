@@ -56,7 +56,7 @@ class MainWindow(QMainWindow):
     
     def push(self, text:str):
         current_text:str = self.input_text.text()
-        self.input_text.setText(f"{current_text}{text}")
+        self.input_text.setText(f"{current_text} {text}")
     
     def push_equal(self):
         print("Calculate")
@@ -69,7 +69,8 @@ class MainWindow(QMainWindow):
         prefix = parser.generate_prefix(input_text)
         postfix = parser.generate_postfix(input_text)
 
-
+        print("POSTFIXXXXX",postfix)
+        print("PREFIXXXX",prefix)
         # print(type(result))
         self.output_lcd.display(result)
         self.postfix_text.setText(postfix)
